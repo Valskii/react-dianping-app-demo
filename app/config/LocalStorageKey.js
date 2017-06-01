@@ -1,0 +1,1 @@
+export const CITYNAME = 'USER_CUR_CITY' 
