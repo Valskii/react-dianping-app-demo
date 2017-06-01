@@ -2,6 +2,7 @@ import React from 'react'
 import {connect} from 'react-redux'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 import HomeHeader from '../../components/HomeHeader/index.jsx'
+import Catogary from '../../components/Catogary/index.jsx'
 class Home extends React.Component {
     constructor(props, context) {
         super(props, context);
@@ -11,6 +12,7 @@ class Home extends React.Component {
         return (
             <div>
                <HomeHeader cityName={this.props.cityName}/>
+               <Catogary/>
             </div>
         )
     }
